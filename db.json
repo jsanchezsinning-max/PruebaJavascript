@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "A123456",
+      "role": "admin",
+      "name": "Administrador"
+    },
+    {
+      "id": "2",
+      "email": "user@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario"
+    },
+    {
+      "id": "3",
+      "email": "user2@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Usuario 2"
+    }
+  ],
+  "reservations": [
+    {
+      "userId": "3",
+      "workspace": "Sala A",
+      "date": "2026-06-06",
+      "startHour": "08:00",
+      "endHour": "09:00",
+      "reason": "tarea",
+      "status": "approved",
+      "id": "hzerR7YHnec"
+    },
+    {
+      "userId": "3",
+      "workspace": "Auditorio",
+      "date": "2026-12-12",
+      "startHour": "08:00",
+      "endHour": "17:07",
+      "reason": "charla",
+      "status": "approved",
+      "id": "NrCQwGZoYO0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
