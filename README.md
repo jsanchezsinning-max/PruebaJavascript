@@ -1,4 +1,4 @@
-# Workspace Reservation Management System
+# RoomTime Reservation Management System
 
 ## Project Description
 
